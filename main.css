@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+    /* 버튼 중앙 정렬 */
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.logo {
+    height: 80px;
+    float: left;
+    margin-left: 16px;
+    margin-top: 15px;
+    /* 로고 왼쪽 정렬 */
+    text-align: left;
+}
+
+.logo_text {
+    color: #f78aa4;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 15px;
+    line-height: 15px;
+}
+
+.request {
+    color: #d7718a;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 40px;
+    height: 150px;
+}
+.request_text {
+    padding-top: 50px;
+}
+.loginpage_img {
+    height: 250px;
+}
+.img {
+    margin-top: 30px;
+}
+.login_img {
+    width: 300px;
+    height: 200px;
+}
+.container {
+}
+.btns {
+}
+button {
+    border: none;
+    margin: 30px;
+    border-radius: 8px;
+    width: 328px;
+    height: 40px;
+    box-shadow: 0px 0px 5px #ffd9df;
+    display: block;
+    font-weight: bold;
+}
+
+.id-btn {
+    background-color: #faeeef;
+}
+
+.kakao-btn {
+    background-color: #fee500;
+}
+
+.google-btn {
+    background-color: #ffffff;
+}
+.login_ask {
+    margin-top: 10px;
+    text-align: center;
+    /* 나란히? */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_ask {
+    font-size: 11px;
+    margin-right: 3px;
+}
+
+.login {
+    font-size: 11px;
+    color: #f78aa4;
+    text-decoration: underline;
+    text-align: right;
+}
