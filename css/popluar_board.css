@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    font-family: "Noto Sans KR", sans-serif;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    max-width: 100%;
+}
+.nav {
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    flex-direction: row;
+    justify-content: space-between;
+    /* 높낮이 맞춰줌 */
+    align-items: center;
+}
+.right {
+    display: flex;
+    margin-right: 3%;
+    align-items: center;
+}
+.title {
+    color: #3f0017;
+    margin-left: 3%;
+    font-size: 1rem;
+}
+.navi-btn {
+    display: flex;
+    align-items: center;
+}
+.nav-reque {
+    color: #3f0017;
+    margin-right: 20px;
+}
+.nav-recom {
+    color: #3f0017;
+    margin-right: 20px;
+}
+.nav-hot {
+    color: #f78aa4;
+    margin-right: 20px;
+}
+a {
+    text-decoration-line: none;
+    width: auto;
+}
+.profile {
+    height: 30px;
+    width: 30px;
+}
+.board {
+    background-color: #fdf1f1;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.post1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    background-color: white;
+    border-radius: 5%;
+}
+.pro {
+    display: flex;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.id1 {
+    margin-left: 1%;
+    font-size: 0.7rem;
+}
+.user_id1 {
+    color: #b3a9aa;
+}
+.time1 {
+    color: #d7718a;
+}
+.title1 {
+    color: #3f0017;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-size: 1.5rem;
+}
+.content {
+    color: #352f30;
+    margin-left: 3%;
+    margin-top: 4%;
+    margin-right: 3%;
+}
+.mark_cur {
+    display: flex;
+    margin-top: 3%;
+    justify-content: flex-end;
+    margin-right: 6%;
+}
+.bookmark {
+    display: flex;
+}
+
+.curation {
+    display: flex;
+}
+.bookmark_on {
+    width: 24px;
+    height: auto;
+}
+
+.mark_text {
+    color: #f78aa4;
+}
+.curation_icon {
+    width: 24px;
+    height: auto;
+}
+.curation_text {
+    color: #3f0017;
+}
+.plylist_img {
+    width: 100%;
+    height: auto;
+}
