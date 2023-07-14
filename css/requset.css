@@ -170,6 +170,22 @@
         object-fit: cover;
         border-radius: 10%;
     }
+    .write {
+        position: fixed;
+        bottom: 3%;
+        right: 8%;
+    }
+    #write_btn {
+        background-color: #f78aa4;
+        width: 80px;
+        height: 60px;
+        margin: 10%;
+        border-radius: 40%;
+    }
+    .btn_box {
+        border: 1px solid #f78aa4;
+        color: #f78aa4;
+    }
 }
 @media (min-width: 651px) {
     body {
@@ -352,5 +368,21 @@
         height: 3%;
         object-fit: cover;
         border-radius: 10%;
+    }
+    .write {
+        position: fixed;
+        bottom: 3%;
+        right: 8%;
+    }
+    #write_btn {
+        background-color: #f78aa4;
+        width: 80px;
+        height: 60px;
+        margin: 10%;
+        border-radius: 40%;
+    }
+    .btn_box {
+        border: 1px solid #f78aa4;
+        color: #f78aa4;
     }
 }
